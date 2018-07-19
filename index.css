@@ -1,0 +1,10 @@
+html, body, #term {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}

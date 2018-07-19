@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+        "target": "es2017",
+        "module": "commonjs",
+        "declaration": false,
+        "sourceMap": true,
+        "strict": true,
+        "noImplicitAny": false,
+        "strictNullChecks": true,
+        "noImplicitThis": true,
+        "alwaysStrict": true,
+        "noUnusedLocals": true,
+        "moduleResolution": "node",
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "jsx": "react",
+        "rootDir": "src",
+        "outDir": "dist"
+    },
+    "exclude": [
+        "node_modules",
+        "dist",
+        "src/renderer",
+        "out"
+    ]
+}

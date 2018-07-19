@@ -1,0 +1,20 @@
+{
+    "extends": "tslint-config-standard",
+    "rules": {
+        "semicolon": [
+            true,
+            "always"
+        ],
+        "ter-indent": [
+            true,
+            4,
+            {
+                "SwitchCase": 1
+            }
+        ],
+        "space-before-function-paren": false,
+        "triple-equals": [true, "allow-null-check"],
+        "strict-type-predicates": false
+    }
+}
+

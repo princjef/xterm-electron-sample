@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "target": "es2017",
+        "module": "commonjs",
+        "declaration": false,
+        "sourceMap": true,
+        "strict": true,
+        "noImplicitAny": false,
+        "noImplicitThis": true,
+        "noUnusedLocals": true,
+        "moduleResolution": "node",
+        "jsx": "react",
+        "rootDir": "src",
+        "outDir": "dist"
+    },
+    "exclude": [
+        "node_modules",
+        "dist",
+        "out"
+    ]
+}
