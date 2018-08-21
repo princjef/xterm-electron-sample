@@ -2,7 +2,7 @@ import * as os from 'os';
 import * as pty from 'node-pty-prebuilt';
 import { Terminal } from 'xterm';
 import * as fit from 'xterm/lib/addons/fit/fit';
-import * as ligatures from 'xterm-ligature-support';
+import * as ligatures from 'xterm-addon-ligatures';
 import _debounce = require('lodash.debounce');
 
 Terminal.applyAddon(fit);

@@ -36,26 +36,26 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "@types/lodash.debounce": "^4.0.3",
+    "@types/lodash.debounce": "^4.0.4",
     "awesome-typescript-loader": "^3.5.0",
-    "concurrently": "^3.5.1",
-    "electron": "^2.0.5",
-    "electron-rebuild": "^1.7.3",
+    "concurrently": "^3.6.1",
+    "electron": "^2.0.7",
+    "electron-rebuild": "^1.8.2",
     "rimraf": "^2.6.2",
-    "source-map-loader": "^0.2.3",
+    "source-map-loader": "^0.2.4",
     "style-loader": "^0.20.2",
-    "ts-loader": "^4.0.1",
+    "ts-loader": "^4.5.0",
     "tslint": "^5.9.1",
     "tslint-config-standard": "^7.0.0",
     "typescript": "^2.8.1",
-    "webpack": "^4.0.1",
+    "webpack": "^4.16.5",
     "webpack-cli": "^2.0.10",
     "webpack-node-externals": "^1.6.0"
   },
   "dependencies": {
     "lodash.debounce": "^4.0.8",
-    "node-pty-prebuilt": "^0.7.3",
-    "xterm": "file:local_node_modules/xterm-3.4.0.tgz",
-    "xterm-ligature-support": "file:local_node_modules/xterm-ligature-support-1.0.0.tgz"
+    "node-pty-prebuilt": "0.7.3",
+    "xterm": "^3.6.0",
+    "xterm-addon-ligatures": "0.1.0-beta-2"
   }
 }
