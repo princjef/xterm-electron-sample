@@ -36,7 +36,7 @@ term.on('data', (data: string) => {
 term.on('resize', size => {
     ptyProc.resize(
         Math.max(size ? size.cols : term.cols, 1),
-        Math.min(size ? size.rows : term.rows, 1)
+        Math.max(size ? size.rows : term.rows, 1)
     );
 });
 
