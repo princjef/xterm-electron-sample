@@ -1,5 +1,5 @@
 import * as os from 'os';
-import * as pty from 'node-pty-prebuilt';
+import * as pty from 'node-pty';
 import { Terminal } from 'xterm';
 import * as fit from 'xterm/lib/addons/fit/fit';
 import * as ligatures from 'xterm-addon-ligatures';
