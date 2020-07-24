@@ -38,9 +38,9 @@
   "devDependencies": {
     "@types/lodash.debounce": "^4.0.4",
     "awesome-typescript-loader": "^5.2.1",
-    "concurrently": "^4.1.0",
+    "concurrently": "^5.2.0",
     "electron": "^4.0.1",
-    "electron-rebuild": "^1.8.2",
+    "electron-rebuild": "^1.11.0",
     "rimraf": "^2.6.3",
     "source-map-loader": "^0.2.4",
     "style-loader": "^0.23.1",
@@ -49,12 +49,12 @@
     "tslint-config-standard": "^8.0.1",
     "typescript": "^3.2.4",
     "webpack": "^4.28.4",
-    "webpack-cli": "^3.2.1",
+    "webpack-cli": "^3.3.12",
     "webpack-node-externals": "^1.7.2"
   },
   "dependencies": {
     "lodash.debounce": "^4.0.8",
-    "node-pty": "^0.8.0",
+    "node-pty": "^0.9.0",
     "xterm": "^3.10.1",
     "xterm-addon-ligatures": "0.1.0-beta-2"
   }
