@@ -40,7 +40,7 @@ term.on('resize', size => {
     );
 });
 
-ptyProc.on('data', data => {
+ptyProc.onData(data => {
     term.write(data);
 });
 
